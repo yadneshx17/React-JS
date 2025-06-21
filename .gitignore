@@ -1,0 +1,31 @@
+# Ignore all node_modules in any subfolder
+**/node_modules/
+
+# Ignore all build/dist folders
+**/dist/
+**/build/
+
+# Ignore all env files
+**/.env
+**/.env.*
+
+# Ignore editor folders
+**/.vscode/
+**/.idea/
+
+# Ignore OS junk
+**/.DS_Store
+**/Thumbs.db
+
+# Ignore logs
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# Optional: Ignore test coverage
+**/coverage/
+
+# Swap/lock/temp files
+*.log
+*.swp
+*.swo
