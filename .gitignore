@@ -1,31 +1,34 @@
-# Ignore all node_modules in any subfolder
-**/node_modules/
+# dependencies
+node_modules/
 
-# Ignore all build/dist folders
-**/dist/
-**/build/
+# production
+/dist
+/build
 
-# Ignore all env files
-**/.env
-**/.env.*
+# misc
+.DS_Store
+.env
+.env.*
+*.local
 
-# Ignore editor folders
-**/.vscode/
-**/.idea/
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
-# Ignore OS junk
-**/.DS_Store
-**/Thumbs.db
+# editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
 
-# Ignore logs
-**/npm-debug.log*
-**/yarn-debug.log*
-**/yarn-error.log*
+# OS files
+Thumbs.db
+.DS_Store
 
-# Optional: Ignore test coverage
-**/coverage/
+# Tailwind CSS
+.tailwind*
 
-# Swap/lock/temp files
-*.log
-*.swp
-*.swo
+# Vite cache
+.vite/
